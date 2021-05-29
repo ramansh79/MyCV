@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+
+<body bgcolor="black" text="white">
+    <table cellspacing="20">
+        <th>
+            <img src="image/314903.jpg" height="150" width="260"></th>
+        <td align="left">
+            <h1>Raman Shrestha</h1>    
+            <p>
+                <em>Undergraduate student <strong>@Bernhardt</strong></em>
+            </p>
+            <p>I am a computer science student. With all the basic knowledge on computer, i can handle 
+                computer problems pretty good.
+            </p>
+        </td>
+
+     </table>
+     <hr size="2" noshade>
+    
+    <table align="right" cellpadding="6" style="font-size: 17px;" >
+        <thead>
+            <tr>
+                <td ><a href="index.html"> Home </a></td>
+                <td ><a href="contacts.html"> Contact </a></td>
+                
+            </tr>
+        </thead>
+    </table>
+    <br>
+    <br>
+    <hr size="2" noshade>
+    <p>
+        Address &ensp;<strong>Machchhegaun.</strong><br>
+        D.O.B &emsp; 17july 1998.<br>
+        Phone &emsp; 9841000000        
+    </p>
+    <hr size="2" noshade>
+    <fieldset>
+    <h3>Please fill form for feedback</h3>
+    <form>
+        <div>
+         <label>Name:&emsp;</label>
+         <input type="text" id="name" >
+        </div>
+        <br>
+        <br>
+        <div>
+         <label>Password:</label>
+         <input type="password">
+        </div>
+        <br>
+        <br>
+        <p>Your age</p>
+        <div>
+            <input type="range" list="tickmarks" id="age" name="age" min="20" max="50" step="1">
+            <label for="age" >Age</label>
+            <datalist id="tickmarks">
+                <option value="20" label="20"></option>
+                <option value="25"></option>
+                <option value="30" label="30"></option>
+                <option value="40" ></option>
+                <option value="50" label="50"></option>
+            </datalist>
+
+        </div>
+        <br>
+        <fieldset>
+         <legend> Your Intrest</legend>
+          <div>
+             <input type="checkbox" name="Intrest" id="Singing"   >
+             <label for="Singing">Singing</label>
+          </div>
+          <div>
+              <input type="checkbox" name="Intrest" id="Dancing">
+              <label for="Dancing">Dancing</label>
+          </div>
+          <div>
+              <input type="checkbox" name="Intrest" id="Playing">
+              <label for="Playing">Playing</label>
+          </div>
+        </fieldset>
+        <br>
+        <br>
+        <div>
+            <label for="datetime-local">Date</label>
+            <input type="datetime-local">
+            
+        </div>
+        <br>
+        <div>
+            <label for="email">Email type</label>
+            <select id="email-select">
+                <option>Choose an option..</option>
+                <option value="gmail">Gmail</option>
+                <option value="rocket mail">Rocket mail</option>
+                <option value="temp mail">Temp mail</option>
+                <option value="yahoo mail">Yahoo mail</option>
+            </select>
+
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" value="please enter your email">
+        </div>
+        <br>
+        <div>
+            <label for="address">Your Address</label>
+            <input list="address of nepal" id="address" name="address">
+            <datalist id="address of nepal">
+                <option value="Kathmandu">kathmandu</option>
+                <option value="Bhaktapur">
+                <option value="Lalitpur">
+                <option value="Mustang">
+                <option value="Manang">
+                <option>
+                
+            </datalist>
+        </div>
+        <br>
+        <input type="reset">
+        <input type="submit">
+        
+
+    </form>
+</fieldset>
+
+
+</body>
+</html>
